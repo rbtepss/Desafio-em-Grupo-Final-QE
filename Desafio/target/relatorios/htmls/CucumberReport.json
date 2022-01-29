@@ -1,0 +1,930 @@
+[
+  {
+    "line": 6,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 48775152100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3006642700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "abro as configurações de cookies",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.abro_as_configurações_de_cookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 200934600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em Confirmar minhas escolhas",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.clico_em_confirmar_minhas_escolhas()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T21:00:18.802Z",
+        "line": 13,
+        "name": "Aceitar o cookie LGPD",
+        "description": "",
+        "id": "acessar-o-site-da-accenture-e-aceitar-os-cookies-do-lgpd;aceitar-o-cookie-lgpd",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 30990200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "deve fechar o modal",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.deve_fechar_o_modal()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@aceitarCookies"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1687551000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 2136305800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "abro as configurações de cookies",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.abro_as_configurações_de_cookies()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 135464800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clico em Confirmar minhas escolhas",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.clico_em_confirmar_minhas_escolhas()"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T21:01:10.901Z",
+        "line": 16,
+        "name": "Configuracoes do cookie",
+        "description": "",
+        "id": "acessar-o-site-da-accenture-e-aceitar-os-cookies-do-lgpd;configuracoes-do-cookie",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 479233700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clico em configuracoes de cookie",
+            "match": {
+              "location": "steps.CasoAceitarCookiesx.clico_em_configura_es_de_cookie()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 76979900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "devo ver o item de \"sua privacidade\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sua privacidade\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.CasoAceitarCookiesx.devo_ver_o_item_de(java.lang.String)"
+            },
+            "keyword": "Entao "
+          },
+          {
+            "result": {
+              "duration": 99978300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "devo ver \"Cookies estritamente necessarias\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cookies estritamente necessarias\"",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.CasoAceitarCookiesx.devo_ver(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 97976300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "devo ver \"Cookies Analiticos de Primeira Parte\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cookies Analiticos de Primeira Parte\"",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.CasoAceitarCookiesx.devo_ver(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 85023100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "devo ver \"Cookies de Desempenho e Cookies Funcionais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cookies de Desempenho e Cookies Funcionais\"",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.CasoAceitarCookiesx.devo_ver(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 80218300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "devo ver \"Cookies de Publicidade e Redes Sociais\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cookies de Publicidade e Redes Sociais\"",
+                  "offset": 9
+                }
+              ],
+              "location": "steps.CasoAceitarCookiesx.devo_ver(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@aceitarCookies"
+          }
+        ]
+      }
+    ],
+    "name": "Acessar o site da accenture e aceitar os cookies do LGPD",
+    "description": "",
+    "id": "acessar-o-site-da-accenture-e-aceitar-os-cookies-do-lgpd",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/01_case_teste_aceitar_cookies.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@aceitarCookies",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 2254319900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 167944500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico no menu \"servicos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"servicos\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_i_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T21:01:15.794Z",
+        "line": 10,
+        "name": "listar serviços da Accenture",
+        "description": "",
+        "id": "acessar-o-site-da-accenture-a-mostrar-a-lista-de-servicos;listar-serviços-da-accenture",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 642218500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "devo ver os servicos abaixo",
+            "match": {
+              "location": "steps.CaseMostrarListaServicosSteps.devo_ver_os_servicos_abaixo(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Application Services"
+                ]
+              },
+              {
+                "cells": [
+                  "Artificial Intelligence"
+                ]
+              },
+              {
+                "cells": [
+                  "Automation"
+                ]
+              },
+              {
+                "cells": [
+                  "Business Process Services"
+                ]
+              },
+              {
+                "cells": [
+                  "Change Management"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud"
+                ]
+              },
+              {
+                "cells": [
+                  "Customer Experience"
+                ]
+              },
+              {
+                "cells": [
+                  "Data \u0026 Analytics"
+                ]
+              },
+              {
+                "cells": [
+                  "Ecosystem Partners"
+                ]
+              },
+              {
+                "cells": [
+                  "Finance Consulting"
+                ]
+              },
+              {
+                "cells": [
+                  "Industry X"
+                ]
+              },
+              {
+                "cells": [
+                  "Infrastructure"
+                ]
+              },
+              {
+                "cells": [
+                  "Marketing"
+                ]
+              },
+              {
+                "cells": [
+                  "Mergers \u0026 Acquisitions (M\u0026A)"
+                ]
+              },
+              {
+                "cells": [
+                  "Operating Models"
+                ]
+              },
+              {
+                "cells": [
+                  "Security"
+                ]
+              },
+              {
+                "cells": [
+                  "Supply Chain Management"
+                ]
+              },
+              {
+                "cells": [
+                  "Sustainability"
+                ]
+              },
+              {
+                "cells": [
+                  "Technology Consulting"
+                ]
+              },
+              {
+                "cells": [
+                  "Technology Innovation"
+                ]
+              },
+              {
+                "cells": [
+                  "Zero Based Budgeting (ZBB)"
+                ]
+              }
+            ],
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 1910293200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 191937400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico no menu \"servicos\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"servicos\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_i_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T21:01:18.870Z",
+        "line": 34,
+        "name": "Clicar no serviço cloud",
+        "description": "",
+        "id": "acessar-o-site-da-accenture-a-mostrar-a-lista-de-servicos;clicar-no-serviço-cloud",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 3471528800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "clico no item do menu \"cloud\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cloud\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_item_do_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 180941500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "devo encontrar o título \"Serviços de Cloud\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Serviços de Cloud\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.CaseMostrarListaServicosSteps.devo_encontrar_o_título(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          }
+        ]
+      }
+    ],
+    "name": "Acessar o site da accenture a mostrar a lista de servicos",
+    "description": "",
+    "id": "acessar-o-site-da-accenture-a-mostrar-a-lista-de-servicos",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/02_case_teste_mostrar_lista_servicos.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T21:01:24.633Z",
+        "line": 7,
+        "name": "Acessar o item de vagas de tecnologia",
+        "description": "",
+        "id": "acessar-a-lista-de-carreiras-da-accenture;acessar-o-item-de-vagas-de-tecnologia",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1961014900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1134043900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico no menu \"carreiras\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"carreiras\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_i_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2243489400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no item do menu \"Vagas em tecnologia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vagas em tecnologia\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_item_do_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 43985400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "devo ver o destaque em \"Carreiras em Tecnologia\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Carreiras em Tecnologia\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.devo_ver_o_destaque_em(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@listaCarreiras"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T21:01:30.026Z",
+        "line": 25,
+        "name": "Procurando uma vaga",
+        "description": "",
+        "id": "acessar-a-lista-de-carreiras-da-accenture;procurando-uma-vaga;;2",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2378030800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "que eu estou no \"site da Accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da Accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 114001700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "acesso a area de carreiras",
+            "match": {
+              "location": "steps.CaseProcurandoUmaVagaSteps.acesso_a_area_de_carreiras()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3349622900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "clico em procurar vagas",
+            "match": {
+              "location": "steps.CaseProcurandoUmaVagaSteps.clico_em_procurar_vagas()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 205813600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "digito no campo de busca \"desenvolvedor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"desenvolvedor\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.CaseProcurandoUmaVagaSteps.digito_no_campo_de_busca(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 129957400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "clico no botão procurar",
+            "match": {
+              "location": "steps.CaseProcurandoUmaVagaSteps.clico_no_botão_procurar()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 2081068900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "devo encontrar vagas para \"Desenvolvedor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Desenvolvedor\"",
+                  "offset": 26
+                }
+              ],
+              "location": "steps.CaseProcurandoUmaVagaSteps.devo_encontrar_vagas_para(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@listaCarreiras"
+          },
+          {
+            "name": "@vagas1"
+          }
+        ]
+      }
+    ],
+    "name": "Acessar a lista de carreiras da accenture",
+    "description": "",
+    "id": "acessar-a-lista-de-carreiras-da-accenture",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/03_case_teste_acessar_lista_de_carreiras.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@listaCarreiras",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T21:01:38.293Z",
+        "line": 7,
+        "name": "Ver as características da accenture",
+        "description": "",
+        "id": "sobre-a-accenture;ver-as-características-da-accenture",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 2459343000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que eu estou no \"site da accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"site da accenture\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.que_eu_estou_no(java.lang.String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 155949300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clico no menu \"sobre a accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sobre a accenture\"",
+                  "offset": 14
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_i_menu(java.lang.String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3492110800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clico no item do menu \"sobre a accenture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sobre a accenture\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.clico_no_item_do_menu(java.lang.String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "devo ver o destaque em \"Nosso propósito:\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nosso propósito:\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.CaseAcessarItensMenu.devo_ver_o_destaque_em(java.lang.String)"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@run"
+          },
+          {
+            "name": "@sobre"
+          }
+        ]
+      }
+    ],
+    "name": "Sobre a accenture",
+    "description": "",
+    "id": "sobre-a-accenture",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/java/features/04_case_teste_sobre_a_accenture.feature",
+    "tags": [
+      {
+        "name": "@run",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@sobre",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

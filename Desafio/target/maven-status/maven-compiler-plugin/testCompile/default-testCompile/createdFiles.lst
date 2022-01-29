@@ -1,0 +1,9 @@
+utilities\Base.class
+steps\CaseProcurandoUmaVagaSteps.class
+utilities\Definitions.class
+runner\RunnerTeste.class
+steps\CaseAcessarVagasTecnologiaSteps.class
+steps\CaseAceitarCookiesSteps.class
+steps\Case_acessar_site_accenture_cookies.class
+steps\CaseMostrarListaServicosSteps.class
+steps\CaseTesteSobreAAccentureSteps.class
